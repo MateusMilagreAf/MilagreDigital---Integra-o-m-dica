@@ -9,7 +9,7 @@ const Home: NextPageWithLayout = () => {
   const { Text } = Typography;
 
   return (
-    <div>
+    <>
       <Header />
       <PageContainer>
         <div
@@ -17,7 +17,7 @@ const Home: NextPageWithLayout = () => {
             display: "flex",
             flexDirection: "column",
             gap: 30,
-            width: "100vw",
+            width: "100%",
             alignItems: "center",
             textAlign: "center",
           }}
@@ -738,7 +738,7 @@ const Home: NextPageWithLayout = () => {
           </div>
         </div>
       </PageContainer>
-    </div>
+    </>
   );
 };
 

@@ -3,7 +3,7 @@ import { AppLayoutProps } from "./AppLayout.types";
 
 export const AppLayout = ({ children }: AppLayoutProps) => {
   return (
-    <div style={{ display: "flex" }}>
+    <div>
       <div>{children}</div>
     </div>
   );
