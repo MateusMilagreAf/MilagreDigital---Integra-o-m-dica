@@ -631,6 +631,7 @@ const Home: NextPageWithLayout = () => {
               gap: 20,
               marginTop: 40,
               width: "65%",
+              justifyContent: "space-around",
             }}
           >
             <div
@@ -638,7 +639,7 @@ const Home: NextPageWithLayout = () => {
                 display: "flex",
                 flexDirection: "column",
                 gap: 7,
-                width: "30%",
+                width: "25%",
               }}
             >
               <div>estrela</div>
@@ -664,7 +665,7 @@ const Home: NextPageWithLayout = () => {
                 display: "flex",
                 flexDirection: "column",
                 gap: 7,
-                width: "30%",
+                width: "25%",
               }}
             >
               <div>estrela</div>
@@ -690,7 +691,7 @@ const Home: NextPageWithLayout = () => {
                 display: "flex",
                 flexDirection: "column",
                 gap: 7,
-                width: "30%",
+                width: "25%",
               }}
             >
               <div>estrela</div>
