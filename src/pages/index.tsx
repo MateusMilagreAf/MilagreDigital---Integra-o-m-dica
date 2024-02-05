@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-import { AppLayout } from "./../components/AppLayout";
 import HomeScreen from "./home";
 import { NextPageWithLayout } from "@inteligenciaMedica/types/app.type";
 
@@ -8,7 +7,7 @@ const Home: NextPageWithLayout = () => {
 };
 
 Home.getLayout = (page: ReactElement) => {
-  return <AppLayout>{page}</AppLayout>;
+  return <div>{page}</div>;
 };
 
 export default Home;

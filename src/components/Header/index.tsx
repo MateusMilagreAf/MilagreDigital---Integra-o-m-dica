@@ -1,9 +1,7 @@
 import { theme } from "@inteligenciaMedica/assets";
 import React from "react";
 
-// import { Container } from './styles';
-
-const Header: React.FC = () => {
+const Header = () => {
   return (
     <div
       style={{

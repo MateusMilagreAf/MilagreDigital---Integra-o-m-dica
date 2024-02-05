@@ -13,10 +13,14 @@ const PageContainer = ({ children }: PageContainerProps) => {
       style={{
         display: "flex",
         flexDirection: "column",
+        justifyContent: "center",
         alignItems: "center",
         width: "100vw",
-        height: "100vh",
+        height: "100%",
+        paddingBottom: 100,
         background: theme.token.colorPrimary,
+        contain: "content",
+        marginLeft: 5,
       }}
     >
       {children}
