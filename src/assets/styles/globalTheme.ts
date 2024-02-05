@@ -36,7 +36,7 @@ interface MyTheme extends ThemeConfig {
 
 export const theme: MyTheme = {
   token: {
-    colorPrimary: "#03002b",
+    colorPrimary: "#1a1d2e",
     fontFamily: PoppinsFont.style.fontFamily,
     fontSize: 13,
     colorPrimaryHover: "#343a46",
