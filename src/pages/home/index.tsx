@@ -30,17 +30,16 @@ const Home: NextPageWithLayout = () => {
                 fontWeight: 500,
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
-              leo metus. Quisqu
+              Inteligência médica, a melhor forma de marcar consultas na área
+              médica
             </Text>
           </div>
           <div>
             <Text style={{ fontSize: 14, color: "#9193aa" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
-              leo metus. Quisqu
+              Agende consultas de forma rápida, efetiva, 24/7
             </Text>
           </div>
-          <BotaoEstilizado>Try It Free</BotaoEstilizado>
+          <BotaoEstilizado>Quero experimentar!</BotaoEstilizado>
           <div
             style={{
               display: "flex",
@@ -66,7 +65,7 @@ const Home: NextPageWithLayout = () => {
             </Avatar.Group>
             <div>
               <Text style={{ fontSize: 13, color: "#9193aa" }}>
-                Confiado por mais de 150 médicos
+                Confiado por +150 médicos
               </Text>
             </div>
           </div>
@@ -82,7 +81,7 @@ const Home: NextPageWithLayout = () => {
           ></div>
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             <Text style={{ fontSize: 16, color: "#9193aa" }}>
-              Confiado por mais de 150 empresas
+              Alguns de nossos clientes
             </Text>
             <div
               style={{
@@ -92,9 +91,15 @@ const Home: NextPageWithLayout = () => {
                 gap: 15,
               }}
             >
-              <Text style={{ fontSize: 18, color: "#9193aa" }}>Macal</Text>
-              <Text style={{ fontSize: 18, color: "#9193aa" }}>Joao</Text>
-              <Text style={{ fontSize: 18, color: "#9193aa" }}>Medico</Text>
+              <Text style={{ fontSize: 18, color: "#9193aa" }}>
+                Clinicas(logo)
+              </Text>
+              <Text style={{ fontSize: 18, color: "#9193aa" }}>
+                Hospietais(logo)
+              </Text>
+              <Text style={{ fontSize: 18, color: "#9193aa" }}>
+                Consultórios(logo)
+              </Text>
             </div>
           </div>
           <div
@@ -132,13 +137,22 @@ const Home: NextPageWithLayout = () => {
                 flexDirection: "column",
                 gap: 15,
                 textAlign: "center",
+                width: "70%",
               }}
             >
-              <Text style={{ fontSize: 24, color: "#fff", fontWeight: 500 }}>
-                Lorem ipsum dolor sit amet, consecteturd daw awdawdwa
+              <Text
+                style={{
+                  fontSize: 24,
+                  color: "#fff",
+                  fontWeight: 500,
+                }}
+              >
+                Simplicidade é a chave, facilite de forma rápida e efetiva a
+                marcação de suas consultas
               </Text>
               <Text style={{ fontSize: 13, color: "#9193aa" }}>
-                Lorem ipsum dolor sit amet, consecteturd daw awdawdwa
+                Veja uma as nossas pincipais vantagens das nossas
+                funcionalidades
               </Text>
             </div>
           </div>
@@ -160,10 +174,11 @@ const Home: NextPageWithLayout = () => {
             >
               <div>Imagem</div>
               <Text style={{ fontSize: 13, color: "#fff" }}>
-                A simple Heading
+                Atendimento focado na sua especialidade
               </Text>
               <Text style={{ fontSize: 13, color: "#cccee9" }}>
-                Lorem ipsum dolor sit amet, consecteturd daw awdawdwa
+                O nosso chat, facilita a marcação de consultas, com as suas
+                funcionalidades
               </Text>
             </div>
             <div
@@ -176,10 +191,11 @@ const Home: NextPageWithLayout = () => {
             >
               <div>Imagem</div>
               <Text style={{ fontSize: 13, color: "#fff" }}>
-                A simple Heading
+                Atendimento 24/7
               </Text>
               <Text style={{ fontSize: 13, color: "#cccee9" }}>
-                Lorem ipsum dolor sit amet, consecteturd daw awdawdwa
+                Seu chat estará disponível 24 horas por dia, 7 dias por semana
+                para fazer consultas.
               </Text>
             </div>
             <div
@@ -192,10 +208,10 @@ const Home: NextPageWithLayout = () => {
             >
               <div>Imagem</div>
               <Text style={{ fontSize: 13, color: "#fff" }}>
-                A simple Heading
+                Rápido e prático, integrado com a sua agenda
               </Text>
               <Text style={{ fontSize: 13, color: "#cccee9" }}>
-                Lorem ipsum dolor sit amet, consecteturd daw awdawdwa
+                Consultas já marcadas na sua agenda, o que facilita sua vida!
               </Text>
             </div>
           </div>
@@ -228,23 +244,30 @@ const Home: NextPageWithLayout = () => {
                     alignItems: "center",
                     justifyContent: "center",
                     gap: 10,
-                    width: 60,
+                    width: 80,
                     background: "#fed8ab",
                   }}
                 >
                   <Text
                     style={{ fontSize: 10, fontWeight: 600, color: "#e76117" }}
                   >
-                    features
+                    Depoimento
                   </Text>
                 </div>
                 <Text style={{ fontSize: 24, fontWeight: 500, color: "#fff" }}>
-                  Lorem ipsum dolor sit amet, consecteturd
+                  Dr. Carlos Silva
+                </Text>
+                <Text
+                  style={{ fontSize: 13, fontWeight: 600, color: "#cccee9" }}
+                >
+                  Dermatologista, São Paulo
                 </Text>
                 <div style={{ width: 350 }}>
                   <Text style={{ fontSize: 13, color: "#cccee9" }}>
-                    Lorem ipsum dolor sit amet, consecteturd daw awdawdwa Lorem
-                    ipsum dolor sit amet, consecteturd daw awdawdwaa
+                    Transformador! O assistente de agendamento da Milagre
+                    Digital economizou horas de trabalho e melhorou a
+                    experiência do paciente, evitando sobreposições de horários.
+                    Um avanço notável para nossa clínica. Dra. Ferna
                   </Text>
                 </div>
               </div>
@@ -285,23 +308,30 @@ const Home: NextPageWithLayout = () => {
                     alignItems: "center",
                     justifyContent: "center",
                     gap: 10,
-                    width: 60,
+                    width: 80,
                     background: "#fed8ab",
                   }}
                 >
                   <Text
                     style={{ fontSize: 10, fontWeight: 600, color: "#e76117" }}
                   >
-                    features
+                    Depoimento
                   </Text>
                 </div>
                 <Text style={{ fontSize: 24, fontWeight: 500, color: "#fff" }}>
-                  Lorem ipsum dolor sit amet, consecteturd
+                  Dr. Lucas Andrade
+                </Text>
+                <Text
+                  style={{ fontSize: 13, fontWeight: 600, color: "#cccee9" }}
+                >
+                  Pediatra, RJ
                 </Text>
                 <div style={{ width: 350 }}>
                   <Text style={{ fontSize: 13, color: "#cccee9" }}>
-                    Lorem ipsum dolor sit amet, consecteturd daw awdawdwa Lorem
-                    ipsum dolor sit amet, consecteturd daw awdawdwaa
+                    O assistente da Milagre Digital revolucionou o agendamento
+                    em nossa pediatria. A customização e o suporte foram
+                    excelentes, tornando a experiência de agendamento suave
+                    tanto para nós quanto para os pais.
                   </Text>
                 </div>
               </div>
@@ -326,23 +356,30 @@ const Home: NextPageWithLayout = () => {
                     alignItems: "center",
                     justifyContent: "center",
                     gap: 10,
-                    width: 60,
+                    width: 80,
                     background: "#fed8ab",
                   }}
                 >
                   <Text
                     style={{ fontSize: 10, fontWeight: 600, color: "#e76117" }}
                   >
-                    features
+                    Depoimento
                   </Text>
                 </div>
                 <Text style={{ fontSize: 24, fontWeight: 500, color: "#fff" }}>
-                  Lorem ipsum dolor sit amet, consecteturd
+                  Dra. Fernanda Rocha
+                </Text>
+                <Text
+                  style={{ fontSize: 13, fontWeight: 600, color: "#cccee9" }}
+                >
+                  Cardiologista, BH
                 </Text>
                 <div style={{ width: 350 }}>
                   <Text style={{ fontSize: 13, color: "#cccee9" }}>
-                    Lorem ipsum dolor sit amet, consecteturd daw awdawdwa Lorem
-                    ipsum dolor sit amet, consecteturd daw awdawdwaa
+                    Nosso agendamento nunca foi tão eficiente. O sistema da
+                    Milagre Digital é intuitivo e se adaptou perfeitamente às
+                    nossas rotinas, melhorando significativamente a satisfação
+                    dos nossos pacientes.
                   </Text>
                 </div>
               </div>
@@ -361,20 +398,21 @@ const Home: NextPageWithLayout = () => {
             style={{
               display: "flex",
               marginTop: 45,
-              width: "70%",
+              width: "85%",
               background: "#1f2235",
+              paddingRight: 30,
+              paddingLeft: 30,
               height: "100%",
               borderRadius: 12,
               alignItems: "center",
               justifyContent: "center",
               flexDirection: "column",
               textAlign: "left",
-              gap: "8%",
             }}
           >
             <div style={{ marginTop: 20 }}>
               <Text style={{ fontSize: 24, fontWeight: 600, color: "#fff" }}>
-                Nossos planos
+                Conheça nossos planos
               </Text>
             </div>
             <div
@@ -392,16 +430,16 @@ const Home: NextPageWithLayout = () => {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  height: "80%",
+                  height: 340,
                   background: "#fff",
                   borderRadius: 10,
-
                   paddingRight: 10,
                   paddingLeft: 10,
                   paddingTop: 30,
                   paddingBottom: 30,
                   marginTop: 20,
                   marginBottom: 20,
+                  width: "28%",
                 }}
               >
                 <Text
@@ -430,7 +468,7 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  Fluxo focado em seus procedimentos
                 </Text>
                 <Text
                   style={{
@@ -440,7 +478,7 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  Ativo 24/7
                 </Text>
                 <Text
                   style={{
@@ -450,19 +488,10 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  Marcação com agenda
                 </Text>
-                <Text
-                  style={{
-                    marginTop: 7,
-                    fontWeight: 500,
-                    fontSize: 12,
-                    color: "#8c8c8c",
-                  }}
-                >
-                  primeiro texto
-                </Text>
-                <PriceCardButton style={{ marginTop: 30, width: 200 }}>
+
+                <PriceCardButton style={{ marginTop: "auto", width: "100%" }}>
                   Comprar!
                 </PriceCardButton>
               </div>
@@ -470,25 +499,25 @@ const Home: NextPageWithLayout = () => {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  height: "80%",
+                  height: 340,
                   background: "#fff",
                   borderRadius: 10,
-
                   paddingRight: 10,
                   paddingLeft: 10,
                   paddingTop: 30,
                   paddingBottom: 30,
                   marginTop: 20,
                   marginBottom: 20,
+                  width: "28%",
                 }}
               >
                 <Text
                   style={{ fontSize: 13, fontWeight: 500, color: "#8c8c8c" }}
                 >
-                  Plano Standard
+                  Plano com IA
                 </Text>
                 <Text style={{ fontSize: 24, fontWeight: 600, color: "black" }}>
-                  $300
+                  $499
                 </Text>
                 <Text
                   style={{
@@ -508,7 +537,8 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  Utiliza inteligência artifical para explicar sobre você e seus
+                  procedimentos
                 </Text>
                 <Text
                   style={{
@@ -518,7 +548,7 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  Fluxo focado em seus procedimentos{" "}
                 </Text>
                 <Text
                   style={{
@@ -528,19 +558,10 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  Ativo 24/7
                 </Text>
-                <Text
-                  style={{
-                    marginTop: 7,
-                    fontWeight: 500,
-                    fontSize: 12,
-                    color: "#8c8c8c",
-                  }}
-                >
-                  primeiro texto
-                </Text>
-                <PriceCardButton style={{ marginTop: 30, width: 200 }}>
+
+                <PriceCardButton style={{ marginTop: "auto", width: "100%" }}>
                   Comprar!
                 </PriceCardButton>
               </div>
@@ -548,7 +569,7 @@ const Home: NextPageWithLayout = () => {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  height: "100%",
+                  height: 340,
                   background: "#fff",
                   borderRadius: 10,
                   paddingRight: 10,
@@ -557,15 +578,16 @@ const Home: NextPageWithLayout = () => {
                   paddingBottom: 30,
                   marginTop: 20,
                   marginBottom: 20,
+                  width: "28%",
                 }}
               >
                 <Text
                   style={{ fontSize: 13, fontWeight: 500, color: "#8c8c8c" }}
                 >
-                  Plano Standard
+                  Plano IA Premium
                 </Text>
                 <Text style={{ fontSize: 24, fontWeight: 600, color: "black" }}>
-                  $300
+                  A alinhar
                 </Text>
                 <Text
                   style={{
@@ -575,7 +597,7 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  por mês
+                  IA personalizada
                 </Text>
                 <Text
                   style={{
@@ -585,7 +607,8 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  Personalização do tom de voz, modo de falar, e como deve ser o
+                  atendimento
                 </Text>
                 <Text
                   style={{
@@ -595,7 +618,8 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  Atendimento por IA que contem todas as informações sobre você
+                  e seus procedimentos
                 </Text>
                 <Text
                   style={{
@@ -605,7 +629,7 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  100% personalizada
                 </Text>
                 <Text
                   style={{
@@ -615,10 +639,10 @@ const Home: NextPageWithLayout = () => {
                     color: "#8c8c8c",
                   }}
                 >
-                  primeiro texto
+                  Atendimento 24/7
                 </Text>
-                <PriceCardButton style={{ marginTop: 30, width: 200 }}>
-                  Comprar !
+                <PriceCardButton style={{ marginTop: "auto", width: "100%" }}>
+                  Entrar em contato
                 </PriceCardButton>
               </div>
               {/*        </div> */}
@@ -644,8 +668,8 @@ const Home: NextPageWithLayout = () => {
             >
               <div>estrela</div>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
-                leo metus. Quisqu
+                A adoção do assistente de IA melhorou tremendamente a eficiência
+                do nosso agendamento.
               </Text>
               <div>
                 <Avatar
@@ -654,10 +678,10 @@ const Home: NextPageWithLayout = () => {
                 />
               </div>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
-                Nome
+                João Barcelos
               </Text>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#cccee9" }}>
-                Nome Empresa
+                Diretor - Hospital Geral de Vitória
               </Text>
             </div>
             <div
@@ -670,8 +694,8 @@ const Home: NextPageWithLayout = () => {
             >
               <div>estrela</div>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
-                leo metus. Quisqu
+                O assistente da Milagre Digital nos destacou no mercado. A
+                integração foi suave, e a eficiência operacional
               </Text>
               <div>
                 <Avatar
@@ -680,10 +704,10 @@ const Home: NextPageWithLayout = () => {
                 />
               </div>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
-                Nome
+                Jorge Silve
               </Text>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#cccee9" }}>
-                Nome Empresa
+                Cirurgião chefe - Clínica Integrada de Saúde, Porto Alegre
               </Text>
             </div>
             <div
@@ -696,8 +720,8 @@ const Home: NextPageWithLayout = () => {
             >
               <div>estrela</div>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
-                leo metus. Quisqu
+                Centro MédImplantar o assistente de IA da Milagre Digital foi um
+                jogo de mudança.
               </Text>
               <div>
                 <Avatar
@@ -706,10 +730,10 @@ const Home: NextPageWithLayout = () => {
                 />
               </div>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
-                Nome
+                Márcia Abreu
               </Text>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#cccee9" }}>
-                Nome Empresa
+                Presidente - Centro Médico de Diagnóstico Avançado, Curitiba
               </Text>
             </div>
           </div>
