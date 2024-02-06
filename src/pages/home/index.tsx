@@ -4,6 +4,15 @@ import PageContainer from "@inteligenciaMedica/components/PageContainer";
 import { NextPageWithLayout } from "@inteligenciaMedica/types/app.type";
 import { BotaoEstilizado, PriceCardButton } from "./Home.styles";
 import Header from "@inteligenciaMedica/components/Header";
+import {
+  ClockCircleOutlined,
+  FieldTimeOutlined,
+  LoadingOutlined,
+  MedicineBoxOutlined,
+  SlidersOutlined,
+  StarFilled,
+  StarOutlined,
+} from "@ant-design/icons";
 
 const Home: NextPageWithLayout = () => {
   const { Text } = Typography;
@@ -123,9 +132,9 @@ const Home: NextPageWithLayout = () => {
                 background: "#fed8ab",
               }}
             >
-              <Text style={{ fontSize: 12, fontWeight: 600, color: "#e76117" }}>
-                .
-              </Text>
+              <div>
+                <SlidersOutlined size={42} style={{ color: "#e76117" }} />
+              </div>
               <Text style={{ fontSize: 13, fontWeight: 600, color: "#e76117" }}>
                 Funcionalidades
               </Text>
@@ -169,10 +178,26 @@ const Home: NextPageWithLayout = () => {
                 display: "flex",
                 width: 200,
                 flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
                 gap: 6,
               }}
             >
-              <div>Imagem</div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  borderRadius: 42,
+                  height: 56,
+                  width: 56,
+                  background: "#1e2133",
+                }}
+              >
+                <MedicineBoxOutlined
+                  style={{ fontSize: 28, color: "#d696c9" }}
+                />
+              </div>
               <Text style={{ fontSize: 13, color: "#fff" }}>
                 Atendimento focado na sua especialidade
               </Text>
@@ -186,12 +211,28 @@ const Home: NextPageWithLayout = () => {
                 display: "flex",
                 width: 200,
                 flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
                 gap: 6,
               }}
             >
-              <div>Imagem</div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  borderRadius: 42,
+                  height: 56,
+                  width: 56,
+                  background: "#1e2133",
+                }}
+              >
+                <ClockCircleOutlined
+                  style={{ fontSize: 28, color: "#86c07e" }}
+                />
+              </div>
               <Text style={{ fontSize: 13, color: "#fff" }}>
-                Atendimento 24/7
+                Atendimento a todo momento, disponível 24/7
               </Text>
               <Text style={{ fontSize: 13, color: "#cccee9" }}>
                 Seu chat estará disponível 24 horas por dia, 7 dias por semana
@@ -203,10 +244,24 @@ const Home: NextPageWithLayout = () => {
                 display: "flex",
                 width: 200,
                 flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
                 gap: 6,
               }}
             >
-              <div>Imagem</div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  borderRadius: 42,
+                  height: 56,
+                  width: 56,
+                  background: "#1e2133",
+                }}
+              >
+                <FieldTimeOutlined style={{ fontSize: 28, color: "#cba28d" }} />
+              </div>
               <Text style={{ fontSize: 13, color: "#fff" }}>
                 Rápido e prático, integrado com a sua agenda
               </Text>
@@ -666,7 +721,21 @@ const Home: NextPageWithLayout = () => {
                 width: "25%",
               }}
             >
-              <div>estrela</div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  gap: 2,
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+              </div>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
                 A adoção do assistente de IA melhorou tremendamente a eficiência
                 do nosso agendamento.
@@ -692,7 +761,21 @@ const Home: NextPageWithLayout = () => {
                 width: "25%",
               }}
             >
-              <div>estrela</div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  gap: 2,
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+              </div>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
                 O assistente da Milagre Digital nos destacou no mercado. A
                 integração foi suave, e a eficiência operacional
@@ -718,7 +801,21 @@ const Home: NextPageWithLayout = () => {
                 width: "25%",
               }}
             >
-              <div>estrela</div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  gap: 2,
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+                <StarFilled style={{ color: "#f8953c" }} />
+              </div>
               <Text style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
                 Centro MédImplantar o assistente de IA da Milagre Digital foi um
                 jogo de mudança.

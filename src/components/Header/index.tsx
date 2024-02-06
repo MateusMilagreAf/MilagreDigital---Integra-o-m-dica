@@ -14,7 +14,18 @@ const Header = () => {
         padding: 10,
       }}
     >
-      <div style={{ color: "#fff" }}>logo</div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          gap: 20,
+          color: "#fff",
+        }}
+      >
+        <div>Logo</div>
+        {/* <div>Conheça</div> */}
+      </div>
+      {/*   <div style={{ color: "#fff" }}>Conheçã quem já faz parte</div> */}
     </div>
   );
 };
