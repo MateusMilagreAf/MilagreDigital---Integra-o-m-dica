@@ -130,9 +130,6 @@ const Home: NextPageWithLayout = () => {
                 background: "#fed8ab",
               }}
             >
-              <div>
-                <SlidersOutlined size={42} style={{ color: "#e76117" }} />
-              </div>
               <Text style={{ fontSize: 13, fontWeight: 600, color: "#e76117" }}>
                 Funcionalidades
               </Text>
