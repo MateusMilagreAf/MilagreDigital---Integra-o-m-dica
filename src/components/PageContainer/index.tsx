@@ -13,8 +13,8 @@ const PageContainer = ({ children }: PageContainerProps) => {
       style={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
         alignItems: "center",
+        minHeight: "100vh - 2000px",
         background: theme.token.colorPrimary,
         contain: "content",
         paddingBottom: 100,

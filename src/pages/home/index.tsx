@@ -7,11 +7,9 @@ import Header from "@inteligenciaMedica/components/Header";
 import {
   ClockCircleOutlined,
   FieldTimeOutlined,
-  LoadingOutlined,
   MedicineBoxOutlined,
   SlidersOutlined,
   StarFilled,
-  StarOutlined,
 } from "@ant-design/icons";
 
 const Home: NextPageWithLayout = () => {
